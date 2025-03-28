@@ -3,7 +3,7 @@
 import "./globals.css";
 import Navbar from "../Components/LayoutComponents/Navbar";
 import Footer from "../Components/LayoutComponents/Footer";
-// import FloatingButtons from "@/Components/LayoutComponents/FloatingButtons";
+
 
 export const metadata = {
   title: "Northeast Customized Tour Packages, Holiday Tour, Car Rentals & Hotel Booking - HTH Tours",
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
     
-      <body className="font-Inter antialiased">
+      <body className="font-Inter antialiased ">
         <div className="min-h-screen flex flex-col">
           <Navbar />
           <main className="flex-grow">{children}
